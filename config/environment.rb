@@ -5,3 +5,6 @@ require 'bundler/setup'
 Bundler.require(:default, ENV['SINATRA_ENV'])
 
 require_all 'app'
+
+
+#Loads bundler, all the gems in the gemfile, and the app directory 
