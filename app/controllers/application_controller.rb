@@ -5,7 +5,7 @@ class ApplicationController < Sinatra::Base
   	set :public_dir, "public"
   end
 
-  get "/" do
-  	erb :index
+  get "/" do #a controller action to accept the request 
+  	erb :index #and respond with the appropriate HTML.
   end
 end
